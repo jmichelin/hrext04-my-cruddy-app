@@ -14,7 +14,7 @@ $(document).ready(function() {
     console.log(inputKey, inputValue);
 
     localStorage.setItem(inputKey, inputValue);
-
+    // data-
     let itemHtml = '<div class="display-item" data-storage-key="'+inputKey+'"> ' + inputKey + ' ' +  localStorage.getItem(inputKey) + '</div>';
     $(".display").html(itemHtml);
     //console.log(localStorage);
@@ -45,8 +45,13 @@ $(document).ready(function() {
    // });
 
    $(".del-text-btn").on("click", function() {
+     alert('item deleted? check the console'); // maybe change to a window.confirm
      localStorage.removeItem( $('.user-input-title').val() ); // grab the title and plop here
-     alert('item deleted? check the console');
+     $(".user-input-title").val("");
+     $(".user-input-body").val("");
+     // clearing display? what if I have multiple items?
+     // after item is removed from local storage, redisplay items from local storage
+     // refresh from storage?
    });
 
 
