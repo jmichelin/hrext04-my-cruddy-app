@@ -1,9 +1,10 @@
 # MVP
 - [ ] store items
  - [√] create new item
- - [ ] edit/update item
- - [ ] delete item
- - [ ] testing
+ - [√] select item
+ - [√] edit/update item
+ - [√] delete item
+
 
  # Detail Todo
  - [ ] Front End
@@ -26,6 +27,11 @@
     - [√] jquery
     - [ ] moment.js
     - [ ] c3.js (charts.js)
+
+ ## Next Steps
+
+  - [ ] factor out common functionality
+  - [ ] testing
 
 
 
