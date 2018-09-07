@@ -1,13 +1,13 @@
 # MVP
 - [ ] store items
- - [ ] create new item
+ - [√] create new item
  - [ ] edit/update item
  - [ ] delete item
  - [ ] testing
 
  # Detail Todo
  - [ ] Front End
-   - [ ] display items
+   - [√] display items
    - [√] enter new item
    - [ ] select item for edit
    - [ ] select item for delete
